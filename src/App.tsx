@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Gallery from "./pages/Gallery";
 import Menu from "./pages/Menu";
+import Reviews from "./pages/Reviews";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/museum" element={<Gallery />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/reviews" element={<Index />} />
+          <Route path="/reviews" element={<Reviews />} />
           <Route path="/reservation" element={<Index />} />
           <Route path="/about" element={<Index />} />
           <Route path="/contact" element={<Index />} />
