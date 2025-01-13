@@ -8,7 +8,7 @@ const Navigation = () => {
 
   const links = [
     { path: "/", label: "Home" },
-    { path: "/gallery", label: "Gallery" },
+    { path: "/museum", label: "Museum" },
     { path: "/menu", label: "Menu" },
     { path: "/reviews", label: "Reviews" },
     { path: "/reservation", label: "Reservation" },
